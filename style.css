@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    margin-top: 50px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.choice {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background-color: #2980b9;
+}
+
+.choice:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.choice:disabled:hover {
+    background-color: #bdc3c7;
+}
+
+.reset-button {
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #c0392b;
+}
